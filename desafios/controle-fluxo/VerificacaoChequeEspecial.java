@@ -11,12 +11,12 @@ public class VerificacaoChequeEspecial {
 
         if (saque <= saldo || saque <= saldo + limiteChequeEspecial) {
             if (saque > saldo) {
-                System.out.println("Transacao realizada com sucesso utilizando o cheque especial.");
+                System.out.println("Transação realizada com sucesso utilizando o cheque especial.");
             } else {
-                System.out.println("Transacao realizada com sucesso.");
+                System.out.println("Transação realizada com sucesso.");
             }
         } else {
-            System.out.println("Transacao nao realizada. Limite do cheque especial excedido.");
+            System.out.println("Transação não realizada. Limite do cheque especial excedido.");
         }
 
         scanner.close();
