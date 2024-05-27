@@ -111,8 +111,8 @@ public class BancoDigital {
     }
 
     private static void exibirSaldos(ContaCorrente contaCorrente, ContaPoupanca contaPoupanca) {
-        System.out.println("Saldo Conta Corrente: " + contaCorrente.getSaldo());
-        System.out.println("Saldo Conta Poupanca: " + contaPoupanca.getSaldo());
+        System.out.printf("Saldo Conta Corrente: %.2f%n" , contaCorrente.getSaldo());
+        System.out.printf("Saldo Conta Poupanca: %.2f%n" , contaPoupanca.getSaldo());
     }
 
     private static void exibirHistorico(ContaCorrente contaCorrente, ContaPoupanca contaPoupanca) {
