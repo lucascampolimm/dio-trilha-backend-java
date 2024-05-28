@@ -18,7 +18,7 @@ public class RegistroTransacoesBancarias {
 
             if (tipoTransacao == 'D') {
                 saldo += valorTransacao;
-                transacoes.add("Deposito de " + valorTransacao);
+                transacoes.add("Depósito de " + valorTransacao);
             } else if (tipoTransacao == 'S') {
                 saldo -= valorTransacao;
                 transacoes.add("Saque de " + valorTransacao);
@@ -29,7 +29,7 @@ public class RegistroTransacoesBancarias {
         }
 
         System.out.printf("Saldo: %.1f\n", saldo);
-        System.out.println("Transacoes:");
+        System.out.println("Transações: ");
         for (int i = 0; i < transacoes.size(); i++) {
             System.out.println((i + 1) + ". " + transacoes.get(i));
         }

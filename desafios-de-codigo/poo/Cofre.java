@@ -11,7 +11,7 @@ abstract class Cofre {
 
     public void imprimirInformacoes() {
         System.out.println("Tipo: " + this.tipo);
-        System.out.println("Metodo de abertura: " + this.metodoAbertura);
+        System.out.println("Método de abertura: " + this.metodoAbertura);
     }
 }
 

@@ -112,11 +112,11 @@ public class BancoDigital {
 
     private static void exibirSaldos(ContaCorrente contaCorrente, ContaPoupanca contaPoupanca) {
         System.out.printf("Saldo Conta Corrente: %.2f%n" , contaCorrente.getSaldo());
-        System.out.printf("Saldo Conta Poupanca: %.2f%n" , contaPoupanca.getSaldo());
+        System.out.printf("Saldo Conta Poupança: %.2f%n" , contaPoupanca.getSaldo());
     }
 
     private static void exibirHistorico(ContaCorrente contaCorrente, ContaPoupanca contaPoupanca) {
         System.out.println("Histórico de Transações Conta Corrente: " + contaCorrente.getHistoricoTransacoes());
-        System.out.println("Histórico de Transações Conta Poupanca: " + contaPoupanca.getHistoricoTransacoes());
+        System.out.println("Histórico de Transações Conta Poupança: " + contaPoupanca.getHistoricoTransacoes());
     }
 }

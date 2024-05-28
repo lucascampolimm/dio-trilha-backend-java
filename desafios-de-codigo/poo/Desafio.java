@@ -12,7 +12,7 @@ public class Desafio {
 
         ContaPoupanca contaPoupanca = new ContaPoupanca(numeroConta, titular, saldo, taxaJuros);
 
-        System.out.println("Conta Poupanca:");
+        System.out.println("Conta Poupança: ");
         contaPoupanca.exibirInformacoes();
     }
 }

@@ -27,7 +27,7 @@ class ContaBancaria {
 
     public void depositar(double valor) {
         this.saldo += valor;
-        System.out.println("Deposito feito.");
+        System.out.println("Depósito feito.");
         imprimirSaldo();
     }
 

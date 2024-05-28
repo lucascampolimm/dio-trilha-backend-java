@@ -32,7 +32,7 @@ public class RegistroTransacoesComStream {
         }
 
         System.out.printf("Saldo : %.1f\n", saldo);
-        System.out.println("Transacoes:");
+        System.out.println("Transações: ");
         transacoes.stream()
                 .map(transacao -> Character.toLowerCase(transacao.getTipo()) + " de " + transacao.getValor())
                 .collect(Collectors.toList())
